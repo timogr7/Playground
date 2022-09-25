@@ -16,6 +16,7 @@
 
     const newStyle = document.createElement("style")
     newStyle.innerHTML = `
+
 #related,
 ytd-section-list-renderer[page-subtype="home"],
 #masthead-ad,
@@ -37,7 +38,7 @@ ytd-browse[page-subtype="home"] {
 #content {
 	min-height:100%;
 }
-    }
+
     `
     document.head.appendChild(newStyle)
     // Your code here...

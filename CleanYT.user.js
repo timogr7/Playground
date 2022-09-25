@@ -33,12 +33,7 @@ ytd-browse[page-subtype="home"] {
     background-position:50% 50%;
 	min-height:90vh;
 }
-ytm-section-list-renderer[page-subtype="home"],
-ytm-rich-grid-renderer,
-ytm-mealbar-promo-renderer
-{
-    display:none !important;
-}
+
 ytm-browse[page-subtype="home"] {
     background-color:gray;
     /* here is my YT background wallpaper, leave it or use a different url */

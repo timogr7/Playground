@@ -34,7 +34,6 @@ ytd-browse[page-subtype="home"] {
 	min-height:90vh;
 }
 ytm-section-list-renderer[page-subtype="home"],
-#masthead-ad,
 ytm-rich-grid-renderer,
 ytm-mealbar-promo-renderer
 {

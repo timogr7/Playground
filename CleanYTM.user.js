@@ -20,6 +20,9 @@
 ytm-section-list-renderer[page-subtype="home"],
 #masthead-ad,
 ytm-rich-grid-renderer,
+ytm-item-section-renderer{
+    display:none !important;
+}
 ytm-mealbar-promo-renderer
 {
     display:none !important;

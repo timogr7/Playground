@@ -17,14 +17,14 @@
     const newStyle = document.createElement("style")
     newStyle.innerHTML = `
 #related,
-ytm-section-list-renderer[page-subtype="home"],
+ytm-section-list-renderer,
 #masthead-ad,
 ytm-rich-grid-renderer,
 ytm-mealbar-promo-renderer
 {
     display:none !important;
 }
-ytm-browse[page-subtype="home"] {
+ytm-browse {
     background-color:gray;
     /* here is my YT background wallpaper, leave it or use a different url */
     background-image:url('https://wallpapercave.com/wp/wp6374897.jpg');

@@ -33,10 +33,9 @@ ytd-browse[page-subtype="home"] {
     background-position:50% 50%;
 	min-height:90vh;
 },
-ytd-section-list-renderer[page-subtype="home"],
-#masthead-ad,
-ytd-rich-grid-renderer,
-ytd-mealbar-promo-renderer
+ytm-section-list-renderer[page-subtype="home"],
+ytm-rich-grid-renderer,
+ytm-mealbar-promo-renderer
 {
     display:none !important;
 },
@@ -48,7 +47,7 @@ ytm-browse[page-subtype="home"] {
 	background-attachment:fixed;
     background-position:50% 50%;
 	min-height:90vh;
-}
+},
 
 #content {
 	min-height:100%;

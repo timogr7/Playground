@@ -32,22 +32,7 @@ ytd-browse[page-subtype="home"] {
 	background-attachment:fixed;
     background-position:50% 50%;
 	min-height:90vh;
-},
-ytm-section-list-renderer[page-subtype="home"],
-ytm-rich-grid-renderer,
-ytm-mealbar-promo-renderer
-{
-    display:none !important;
-},
-ytm-browse[page-subtype="home"] {
-    background-color:gray;
-    /* here is my YT background wallpaper, leave it or use a different url */
-    background-image:url('https://wallpaperaccess.com/full/2923100.jpg');
-    background-size:cover;
-	background-attachment:fixed;
-    background-position:50% 50%;
-	min-height:90vh;
-},
+}
 
 #content {
 	min-height:100%;

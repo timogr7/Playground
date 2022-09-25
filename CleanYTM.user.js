@@ -6,6 +6,8 @@
  // @author       You
  // @match        *://www.youtube.com/
  // @match        *://www.youtube.com/?*
+ // @match        *://m.youtube.com/
+ // @match        *://m.youtube.com/?*
  // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
  // @grant        none
  // @license      MIT
@@ -25,6 +27,15 @@
      display:none !important;
  }
  ytd-browse[page-subtype="home"] {
+     background-color:gray;
+     /* here is my YT background wallpaper, leave it or use a different url */
+     background-image:url('https://wallpaperaccess.com/full/2923100.jpg');
+     background-size:cover;
+ 	background-attachment:fixed;
+     background-position:50% 50%;
+ 	min-height:90vh;
+ }
+  ytm-browse[page-subtype="home"] {
      background-color:gray;
      /* here is my YT background wallpaper, leave it or use a different url */
      background-image:url('https://wallpaperaccess.com/full/2923100.jpg');
